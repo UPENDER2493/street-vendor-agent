@@ -1,0 +1,29 @@
+# Credentials - never commit
+.env
+.streamlit/secrets.toml
+
+# Python generated
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / local dev tooling
+.vscode/
+.bob/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local watsonx Orchestrate ADK workspace (dev-only, not application)
+workspace_config.yaml
